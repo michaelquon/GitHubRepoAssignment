@@ -1,0 +1,43 @@
+mquon@LAPTOP-ORION MINGW64 /d/Workspace
+$ mkdir GitHubRepoAssignment
+
+mquon@LAPTOP-ORION MINGW64 /d/Workspace
+$ cd GitHubRepoAssignment/
+
+mquon@LAPTOP-ORION MINGW64 /d/Workspace/GitHubRepoAssignment
+$ touch readme.md
+
+mquon@LAPTOP-ORION MINGW64 /d/Workspace/GitHubRepoAssignment
+$ git init
+Initialized empty Git repository in D:/Workspace/GitHubRepoAssignment/.git/
+
+mquon@LAPTOP-ORION MINGW64 /d/Workspace/GitHubRepoAssignment (master)
+$ git add readme.md
+
+mquon@LAPTOP-ORION MINGW64 /d/Workspace/GitHubRepoAssignment (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+mquon@LAPTOP-ORION MINGW64 /d/Workspace/GitHubRepoAssignment (master)
+$ git commit -m "first commit"
+[master (root-commit) 945fcb9] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+
+mquon@LAPTOP-ORION MINGW64 /d/Workspace/GitHubRepoAssignment (master)
+$ git remote add origin https://github.com/michaelquon/GitHubRepoAssignment.git
+
+mquon@LAPTOP-ORION MINGW64 /d/Workspace/GitHubRepoAssignment (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 206 bytes | 206.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/michaelquon/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
